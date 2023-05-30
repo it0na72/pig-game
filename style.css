@@ -18,6 +18,7 @@ body {
   color: #333;
   background-image: linear-gradient(to top left, #06acc2 0%, #2e08d4 100%);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -25,7 +26,7 @@ body {
 /* LAYOUT */
 main {
   position: relative;
-  width: 100rem;
+  width: 80rem;
   height: 60rem;
   background-color: rgba(255, 255, 255, 0.35);
   backdrop-filter: blur(200px);
@@ -34,6 +35,18 @@ main {
   border-radius: 9px;
   overflow: hidden;
   display: flex;
+}
+
+footer {
+  flex-shrink: 0;
+  padding: 1rem;
+  text-align: center;
+  font-size: large;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
 }
 
 .player {
@@ -170,6 +183,11 @@ main {
   display: none;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 /* Mobile Devices */
 @media only screen and (max-width: 600px) {
   body {
@@ -188,28 +206,33 @@ main {
   }
 
   .dice {
-    height: 8rem; /* Reduce the size of the dice image for smaller screens */
-    top: 10rem; /* Adjust the positioning of the dice image */
+    height: 6.5rem; /* Reduce the size of the dice image for smaller screens */
+    top: 36.5rem; /* Adjust the positioning of the dice image */
+    left: 24rem;
   }
 
+  .btn--new {
+    top: 0.5rem;
+  }
   .btn {
     font-size: 1.4rem; /* Adjust the font size of buttons for smaller screens */
     padding: 0.5rem 1.5rem; /* Adjust the padding of buttons for smaller screens */
   }
 
   .btn--roll {
-    top: 35rem; /* Adjust the positioning of the "Roll dice" button */
+    top: 37.5rem; /* Adjust the positioning of the "Roll dice" button */
+    left: 13rem;
   }
 
   .btn--hold {
-    top: 41rem; /* Adjust the positioning of the "Hold" button */
+    top: 73.3rem; /* Adjust the positioning of the "Hold" button */
   }
 }
 
 /* Tablet Devices */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   main {
-    width: 80%; /* Adjust the width of the game container for tablet screens */
+    width: 97%; /* Adjust the width of the game container for tablet screens */
   }
 }
 
