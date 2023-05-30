@@ -191,28 +191,28 @@ body {
 /* Mobile Devices */
 @media only screen and (max-width: 600px) {
   body {
-    font-size: 55%; /* Adjust the font size for smaller screens */
+    font-size: auto; /* Adjust the font size for smaller screens */
   }
 
   main {
-    width: 90%; /* Adjust the width of the game container for smaller screens */
+    width: 85%; /* Adjust the width of the game container for smaller screens */
     height: auto; /* Allow the container to adjust its height based on content */
     flex-direction: column; /* Stack the player sections and buttons vertically */
-    padding: 2rem; /* Add some padding to the container */
+    padding: 1rem; /* Add some padding to the container */
   }
 
   .player {
-    padding: 4rem; /* Reduce the padding for player sections on smaller screens */
+    padding: 2rem; /* Reduce the padding for player sections on smaller screens */
   }
 
   .dice {
-    height: 6.5rem; /* Reduce the size of the dice image for smaller screens */
-    top: 36.5rem; /* Adjust the positioning of the dice image */
-    left: 24rem;
+    height: 4rem; /* Reduce the size of the dice image for smaller screens */
+    top: 32.8rem; /* Adjust the positioning of the dice image */
+    left: 23rem;
   }
 
   .btn--new {
-    top: 0.5rem;
+    top: 0.1rem;
   }
   .btn {
     font-size: 1.4rem; /* Adjust the font size of buttons for smaller screens */
@@ -220,12 +220,12 @@ body {
   }
 
   .btn--roll {
-    top: 37.5rem; /* Adjust the positioning of the "Roll dice" button */
+    top: 32.5rem; /* Adjust the positioning of the "Roll dice" button */
     left: 13rem;
   }
 
   .btn--hold {
-    top: 73.3rem; /* Adjust the positioning of the "Hold" button */
+    top: 64rem; /* Adjust the positioning of the "Hold" button */
   }
 }
 
