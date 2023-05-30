@@ -49,7 +49,7 @@ To get a local copy up and running follow these simple example steps.
 - Clone this repo
 ```git clone https://github.com/it0na72/pig-game.git```
 
-After cloning this repo you should be able to change as needed.
+After cloning this repo you should be able to make changes as needed.
 
 <!-- ROADMAP -->
 ## Roadmap
