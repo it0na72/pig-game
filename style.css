@@ -216,6 +216,6 @@ main {
 /* Larger Devices */
 @media only screen and (min-width: 1025px) {
   main {
-    width: 60rem; /* Reset the width of the game container for larger screens */
+    width: 100rem; /* Reset the width of the game container for larger screens */
   }
 }
