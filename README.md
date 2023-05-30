@@ -56,6 +56,7 @@ After cloning this repo you should be able to make changes as needed.
 
 - [ ] Improve media queries on mobile
 - [ ] Add animation and possibly a sound when the player gets the correct number
+- [ ] Add modal window with the instructions as soon as the page is loaded
 
 
 See the [open issues](https://github.com/it0na72/pig-game/issues) for a full list of proposed features (and known issues).
