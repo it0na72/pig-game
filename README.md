@@ -2,7 +2,7 @@
   <a href="https://github.com/it0na72/pig-game/">
     <img src="logo.png" alt="Logo" width="100" height="100">
   </a>
-<h3 align="center">Guess my Number</h3>
+<h3 align="center">Pig Game</h3>
 
   <p align="center">
     <a href="https://it0na72.github.io/pig-game/"><b>View Demo</b></a>
