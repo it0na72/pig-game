@@ -117,7 +117,7 @@ footer a {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  color: #444;
+  color: #000000;
   background: none;
   border: none;
   font-family: inherit;
@@ -215,17 +215,17 @@ body {
     top: 0.1rem;
   }
   .btn {
-    font-size: 1.4rem; /* Adjust the font size of buttons for smaller screens */
-    padding: 0.5rem 1.5rem; /* Adjust the padding of buttons for smaller screens */
+    font-size: 13px; /* Adjust the font size of buttons for smaller screens */
+    padding: 1px 5px; /* Adjust the padding of buttons for smaller screens */
   }
 
   .btn--roll {
-    top: 32.5rem; /* Adjust the positioning of the "Roll dice" button */
+    top: 32.8rem; /* Adjust the positioning of the "Roll dice" button */
     left: 13rem;
   }
 
   .btn--hold {
-    top: 64rem; /* Adjust the positioning of the "Hold" button */
+    top: 64.5rem; /* Adjust the positioning of the "Hold" button */
   }
 }
 
