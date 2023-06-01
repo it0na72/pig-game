@@ -8,7 +8,20 @@
     <title>Pig Game</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
+
   <body>
+    <!-- ADD LATER WITH INSTRUCTIONS. ADD THIS INSIDE A MODAL WINDOW
+      <div id="modal" class="modal hidden">
+      <button id="btnCloseModal" class="close">&times;</button>
+      <h1>Read this before playing!</h1>
+      <p>
+        The Pig Game is a two-player dice game where players take turns rolling
+        a dice and accumulate points, but if they roll a 1, they lose their
+        current points and it becomes the next player's turn. The first player
+        to reach a predefined winning score wins the game.
+      </p>
+    </div>
+    <div id="overlay" class="overlay hidden"></div> -->
     <main>
       <section class="player player--0 player--active">
         <h2 class="name" id="name--0">Player 1</h2>
@@ -26,12 +39,12 @@
           <p class="current-score" id="current--1">0</p>
         </div>
       </section>
-
       <img src="dice-5.png" alt="Playing dice" class="dice" />
       <button class="btn btn--new">🔄New game</button>
       <button class="btn btn--roll">🎲Roll</button>
       <button class="btn btn--hold">📥Hold</button>
     </main>
+
     <footer id="footer">
       <a href="https://github.com/it0na72" target="_blank">
         © 2023 Developed by André Oliveira
