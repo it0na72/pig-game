@@ -189,7 +189,7 @@ body {
 }
 
 /* Mobile Devices */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 450px) {
   body {
     font-size: auto; /* Adjust the font size for smaller screens */
   }
@@ -208,7 +208,7 @@ body {
   .dice {
     height: 4rem; /* Reduce the size of the dice image for smaller screens */
     top: 32.8rem; /* Adjust the positioning of the dice image */
-    left: 23rem;
+    left: 22rem;
   }
 
   .btn--new {
@@ -216,7 +216,7 @@ body {
   }
   .btn {
     font-size: 13px; /* Adjust the font size of buttons for smaller screens */
-    padding: 1px 5px; /* Adjust the padding of buttons for smaller screens */
+    padding: 0.5px 5px; /* Adjust the padding of buttons for smaller screens */
   }
 
   .btn--roll {
@@ -225,7 +225,7 @@ body {
   }
 
   .btn--hold {
-    top: 64.5rem; /* Adjust the positioning of the "Hold" button */
+    top: 65rem; /* Adjust the positioning of the "Hold" button */
   }
 }
 
