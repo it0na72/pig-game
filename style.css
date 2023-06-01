@@ -33,7 +33,7 @@ main {
   filter: blur();
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
   border-radius: 9px;
-  overflow: hidden;
+  overflow: auto;
   display: flex;
 }
 
@@ -195,8 +195,8 @@ body {
   }
 
   main {
-    width: 85%; /* Adjust the width of the game container for smaller screens */
-    height: auto; /* Allow the container to adjust its height based on content */
+    width: 80%; /* Adjust the width of the game container for smaller screens */
+    height: 500px; /* Allow the container to adjust its height based on content */
     flex-direction: column; /* Stack the player sections and buttons vertically */
     padding: 1rem; /* Add some padding to the container */
   }
