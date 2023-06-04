@@ -54,7 +54,7 @@ After cloning this repo you should be able to make changes as needed.
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Improve media queries on mobile
+- [x] Improve media queries on mobile
 - [ ] Add animation and possibly a sound when the player gets the correct number
 - [ ] Add modal window with the instructions as soon as the page is loaded
 
