@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/it0na72/pig-game/">
+  <a href="https://it0na72.github.io/pig-game/">
     <img src="logo.png" alt="Logo" width="100" height="100">
   </a>
 <h3 align="center">Pig Game</h3>
