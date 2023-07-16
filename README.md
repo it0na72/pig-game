@@ -55,6 +55,10 @@ After cloning this repo you should be able to make changes as needed.
 ## Roadmap
 
 - [x] Improve media queries on mobile
+- [x] Fix rolling the dice
+- [x] Switch the active player
+- [x] Holding the current score
+- [x] Resetting the game
 - [ ] Add animation and possibly a sound when the player gets the correct number
 - [ ] Add modal window with the instructions as soon as the page is loaded
 
