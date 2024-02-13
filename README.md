@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/it0na72/pig-game/">
+  <a href="https://it0na72.github.io/pig-game/">
     <img src="logo.png" alt="Logo" width="100" height="100">
   </a>
 <h3 align="center">Pig Game</h3>
@@ -54,7 +54,11 @@ After cloning this repo you should be able to make changes as needed.
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Improve media queries on mobile
+- [x] Improve media queries on mobile
+- [x] Fix rolling the dice
+- [x] Switch the active player
+- [x] Holding the current score
+- [x] Resetting the game
 - [ ] Add animation and possibly a sound when the player gets the correct number
 - [ ] Add modal window with the instructions as soon as the page is loaded
 
